@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ликорис</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/media/logo/logo.png" type="image/x-icon">
+    <script src="assets/js/note.js"></script>
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="container">
+        <a href="index.html">
+            <div class="logo">
+                <div class="logo_img">
+                    <img src="assets/media/logo/logo.png" alt="">
+                </div>
+                <div class="logo_text">
+                    <img src="assets/media/logo/logo_text.svg" alt="">
+                </div>
+            </div>
+        </a>
+
+        <div class="menu">
+
+            <input type="checkbox" id="burger-toggle" class="burger-checkbox">
+
+            <label for="burger-toggle" class="burger-button">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </label>
+
+            <ul class="menu-list">
+                <li><a href="index.html" class="menu-item">Главная</a></li>
+                <li><a href="#" class="menu-item">О нас</a></li>
+                <li><a href="catalog.html" class="menu-item">Каталог</a></li>
+                <li><a href="#advice" class="menu-item">Советы</a></li>
+                <li><a href="#FAQ" class="menu-item">FAQ</a></li>
+                <li><a href="logIn.html" class="menu-item">Войти</a></li>
+            </ul>
+        </div>
+
+        <div class="enter">
+            <a href="logIn.html">Войти</a>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+    <!-- log_in start -->
+    <div class="log_in container">
+        <div class="auth-card">
+            <h2>Вход в аккаунт</h2>
+
+            <div class="input-group">
+                <input type="text" id="username" required>
+                <label for="username">Логин</label>
+                <div class="underline"></div>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Пароль</label>
+                <div class="underline"></div>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Повторите пароль</label>
+                <div class="underline"></div>
+            </div>
+
+            <button class="login-btn">
+                <span>Зарегистрироваться</span>
+            </button>
+
+            <div class="divider">
+                <span>или</span>
+            </div>
+
+            <a href="logIn.html" class="signup-link">
+                Войти в аккаунт
+            </a>
+        </div>
+    </div>
+    <!-- log_in end -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="footer_block container">
+            <div class="left_footer">
+                <div class="first_left">
+                    <img src="assets/media/footer/Ликорис.svg" alt="">
+                </div>
+                <div class="second_left">
+                    <div class="nav_block">
+                        <nav>
+                            <a href="catalog.php">Главная</a>
+                            <a href="#">О нас</a>
+                            <a href="catalog.html">Каталог</a>
+                            <a href="#">Советы</a>
+                            <a href="#">FAQ</a>
+                        </nav>
+                    </div>
+                    <div class="info_block">
+                        <a href="tel:+7(921)327-22-23"><img src="assets/media/footer/phone.svg" alt="">+7 (921)
+                            327-22-23</a>
+                        <a href="mailto:lycoris@gmail.com"><img src="assets/media/footer/email.svg"
+                                alt="">lycoris@gmail.com</a>
+                        <a href="https://yandex.ru/maps/-/CHuAY6NY"><img src="assets/media/footer/address.svg" alt="">г.
+                            Казань, ул. Баумана 21</a>
+                        <a href="https://t.me/shaalsi"><img src="assets/media/footer/user.svg" alt="">Разработчик:
+                            Шабанова Алёна</a>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="right_block">
+                <h2>Свяжитесь с нами!</h2>
+                <p>Если остались вопросы по продуктам <br> и услугам, будем рады вам помочь!</p>
+                <label for="">номер телефона</label><br>
+                <input type="tel" placeholder="+7 (000) 000-00-00">
+                <div class="btn_footer">
+                    <a href="">Отправить</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>
